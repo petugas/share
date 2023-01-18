@@ -5,29 +5,29 @@ import os
 from logging.handlers import RotatingFileHandler
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5808546170:AAFnESJ2yX-rdEOIDr5KnVy6l-XHrLZzamI")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "7805769"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "7da8a20d0b9e7603d9454dba1547fecd")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-728662196"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1348352154"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "zenfrans")
+OWNER = os.environ.get("OWNER", "erlandi")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "postgresql://postgres:SlAvYngpcqiN2ZE7YrV2@containers-us-west-186.railway.app:7358/railway")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "nbzoning")
-GROUP = os.environ.get("GROUP", "OkaeriUserbot")
+CHANNEL = os.environ.get("CHANNEL", "erlandi")
+GROUP = os.environ.get("GROUP", "https://t.me/+n3V3XlfIwUhhZWNl")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
@@ -38,7 +38,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>",
+    "<b>Hello {first}</b>\n\n<b>kamu nanya.</b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "").split())]
