@@ -23,7 +23,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1348352154"))
 OWNER = os.environ.get("OWNER", "erlandi")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgresql://postgres:SlAvYngpcqiN2ZE7YrV2@containers-us-west-186.railway.app:7358/railway")
+DB_URI = os.environ.get("DATABASE_URL", "")
 
 # Username CH & Group
 CHANNEL = os.environ.get("CHANNEL", "erlandi")
